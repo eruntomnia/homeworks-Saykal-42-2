@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(209, 237, 228, 0.85);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.svet {
+    background-color: black;
+    width: 350px;
+    height: 115px;
+    border-radius: 20px;
+}
+
+.svet .colors {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.svet .color {
+    width: 90px;
+    height: 90px;
+    background-color: darkgray;
+    border: 2px solid darkgray;
+    border-radius: 100px;
+}
+
+.container .letters {
+    padding: 0;
+    width: 350px;
+    height: 60px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.colors #green:nth-child(1) {
+    color: green;
+    border: 2px solid darkgreen;
+}
+
+.colors #yellow:nth-child(2) {
+    color: yellow;
+    border: 2px solid yellow;
+}
+
+.colors #red:nth-child(3) {
+    color: red;
+    border: 2px solid darkred;
+}
+
+.letters .buttons {
+    color: orange;
+}
+
+.colors .color:nth-child(1),
+.buttons button:nth-child(3) {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.colors .color:nth-child(1):hover {
+    background-color: green;
+    border: none;
+}
+
+.colors .color:nth-child(2):hover {
+    background-color: yellow;
+    border: none;
+}
+
+.colors .color:nth-child(3):hover {
+    background-color: red;
+    border: none;
+}
+
+

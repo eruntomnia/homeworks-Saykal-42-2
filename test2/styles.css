@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap");
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D8C3A5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #EAE7DC;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #E98074;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #E85A4F;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
